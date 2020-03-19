@@ -26,6 +26,6 @@ def snail(array):
     else:
         return []
 
-
-array = input()
-print(snail(array))
+if __name__ ==  "__name__":
+    array = input()
+    print(snail(array))
